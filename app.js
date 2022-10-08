@@ -21,7 +21,6 @@ app.use(express.urlencoded({ extended: false }));
  * {
  * 'key': '무슨내용일까요?'
  * }
- * 
  * */ 
 app.post("/set-key", (req, res) => {
     const { key } = req.body;
